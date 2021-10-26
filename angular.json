@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "interactive-resume"
+    }
+  },
+  "defaultProject": "interactive-resume",
+  "cli": {
+    "analytics": "bc6123c9-934d-46ba-a4e6-42a345b99c93"
+  }
 }
