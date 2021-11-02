@@ -1,3 +1,16 @@
-<p>
-  resume works!
-</p>
+<div class="container">
+<div fxLayout="row" fxLayout.xs="column" class='header'>
+  <app-header fxFlex="100"></app-header>
+</div>
+<div fxLayout="row" fxLayout.xs="column" fxLayoutGap="5px">
+  <div fxLayout="column" fxLayout.xs="column" class="sideBar" fxFlex="20%">
+    <app-skills ></app-skills>
+  </div>
+  <div fxLayout="column" fxLayout.xs="column" class="mainPanel" fxFlex="80%">
+    <div class='resume-content'>
+      <app-experience></app-experience>
+      <app-recommendation></app-recommendation>
+    </div>
+  </div>
+</div>
+</div>

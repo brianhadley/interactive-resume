@@ -1,0 +1,10 @@
+<div *ngFor="let experience of experiences$ | async">
+  <div class="employerImage"><img [src]="experience.employer.imageUrl"/></div>
+  <div class="employerName">{{experience.employer.name}}</div>
+  <div class="tenure"></div>
+  <div class="achievements">
+    <mat-list>
+      <mat-list-item *ngFor="let item of experience.achievements">{{item}}</mat-list-item>
+    </mat-list>
+  </div>
+</div>
